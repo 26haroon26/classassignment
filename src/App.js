@@ -27,15 +27,20 @@ function App() {
             className={`add ${mode ? "slow white" : "fast black"} `}
             onClick={() => {
               setnum(num + 1);
+              
             }}
           >
-            {" "}
             Add
           </button>
           <button
             className={`minus ${mode ? "slow white" : "fast black"} `}
             onClick={() => {
-              setnum(num - 1);
+              if (num === 0 ) {
+                return
+              }
+              else{
+                setnum(num - 1);
+              }
             }}
           >
             Sub
