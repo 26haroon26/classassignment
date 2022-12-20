@@ -1,6 +1,0 @@
-[{
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target" : { "namespace": "android_app", "package_name": "app.netlify.counterapp_darkmode.twa",
-                     "sha256_cert_fingerprints": ["55:16:27:3D:D2:FD:C8:CF:7F:5A:3B:E1:81:5F:EA:7F:16:D7:FD:69:37:33:83:4A:78:98:22:1F:D6:0C:77:7D"] }
-      }
-]
